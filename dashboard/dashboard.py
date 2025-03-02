@@ -75,7 +75,7 @@ def analyze_top_low_products(df):
 
 # Load data
 all_df = load_data("/mount/src/streamlit-analisis-python/data/all_data_df.csv")
-geolocation_df = load_geolocation("/mount/src/streamlit-analisis-python/data/all_data_df.csv")
+geolocation_df = load_geolocation("/mount/src/streamlit-analisis-python/data/geolocation_data.csv")
 customers_df = merge_customer_geolocation(all_df, geolocation_df)
 
 # Convert to GeoDataFrame
