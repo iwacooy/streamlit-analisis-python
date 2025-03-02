@@ -1,0 +1,7 @@
+Babel==2.17.0
+geopandas==1.0.1
+matplotlib==3.10.1
+pandas==2.2.3
+seaborn==0.13.2
+Shapely==2.0.7
+streamlit==1.42.2
